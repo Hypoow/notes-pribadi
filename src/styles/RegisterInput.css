@@ -1,0 +1,74 @@
+.input-login,
+.input-register {
+  margin: 32px 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+button {
+  background: transparent;
+  color: var(--font-color);
+  font-size: 34px;
+  border: 0;
+  cursor: pointer;
+  margin: 0 16px;
+}
+
+label {
+  cursor: default;
+}
+
+.app-container {
+  background-color: #121212;
+  background-color: var(--background);
+  color: #fff;
+  color: var(--on-background);
+  min-height: 100vh;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-register input {
+  background-color: initial;
+  border: 3px solid #fff;
+  border: 3px solid var(--on-background);
+  border-radius: 8px;
+  color: #fff;
+  color: var(--on-background);
+  display: block;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+}
+
+.input-register button {
+  background-color: #fff;
+  background-color: var(--on-background);
+  border: 0;
+  border-radius: 8px;
+  color: #121212;
+  color: var(--background);
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 12px;
+  width: 100%;
+}
+
+.input-login label,
+.input-register label {
+  font-size: 24px;
+  font-weight: lighter;
+}
